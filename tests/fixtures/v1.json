@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "tasks": [
+    {
+      "id": "f1", "title": "Regar plantas", "notes": "Las del balcón", "category": "Casa",
+      "recurrence": { "type": "weekly" },
+      "overrides": { "verano": { "recurrence": { "type": "weekdays", "days": [1, 3, 5] } } },
+      "log": [{ "day": "2026-11-10" }, { "day": "2026-11-17", "occ": "2026-11-17" }],
+      "archived": false, "createdAt": 1790000000000
+    },
+    {
+      "id": "f2", "title": "Planchar", "notes": "", "category": "",
+      "recurrence": { "type": "monthly" }, "overrides": { "verano": { "disabled": true } },
+      "log": [], "archived": false, "createdAt": 1790000000001
+    }
+  ],
+  "modes": [
+    { "id": "normal", "name": "Normal", "icon": "🏠", "range": null },
+    { "id": "verano", "name": "Verano", "icon": "☀️", "range": { "from": "06-15", "to": "09-15" } }
+  ],
+  "settings": { "theme": "dark", "activeMode": "normal", "autoModes": true, "backupReminderDays": 14 },
+  "meta": { "lastExport": 1790000000000 }
+}

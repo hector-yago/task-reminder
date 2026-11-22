@@ -1,0 +1,10 @@
+{
+  "launcher": {
+    "type": "SCRIPT",
+    "target": "abrir-task-reminder.ps1",
+    "args": [],
+    "openUrl": "http://localhost:8095/",
+    "waitSeconds": 20,
+    "stopArgs": ["-Parar"]
+  }
+}
